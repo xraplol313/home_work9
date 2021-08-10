@@ -1,0 +1,94 @@
+
+.button {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: block;
+    margin: 120px auto;
+    color: blueviolet;
+    background-color: cyan;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+.todo__wrapper {
+    text-align: center;
+    display: none;
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.open {
+    display: block;
+}
+
+.todo__tittle {
+    background-color: cyan;
+    margin: 0;
+    margin-bottom: 10px;
+    color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.todo__input {
+    padding: 10px;
+    width: 450px;
+}
+
+.todo__check {
+    text-align: start;
+}
+
+input {
+    color: blueviolet;
+    font-weight: 800;
+}
+
+input::placeholder {
+    color: black;
+    font-weight: 800;
+}
+
+.result {
+    list-style: none;
+}
+
+.result__item {
+    text-align: start;
+    padding: 5px;
+    font-weight: 800;
+    color: blueviolet;
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 10px;
+    padding-left: 26px;
+    background-image: url(/images/img.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+.cross__out {
+    text-decoration: line-through;
+    color: black;
+    background-image: none;
+    
+}
+
+.button__reset {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: block;
+    margin: 30px auto;
+    color: blueviolet;
+    background-color: cyan;
+    font-weight: 800;
+    cursor: pointer;
+}
